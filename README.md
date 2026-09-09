@@ -2,6 +2,8 @@
 
 Parametric 3D handle workshop. Design a replacement grip for a hairbrush, tool, or utensil, preview it, then export an STL for Bambu Studio, OrcaSlicer, or PrusaSlicer.
 
+Private repo: [github.com/smistrydev/haft](https://github.com/smistrydev/haft)
+
 Units are millimetres. Every handle can have a round mounting hole in the bottom (socket), a pin (tenon), or a closed end.
 
 ## Run locally
@@ -9,9 +11,13 @@ Units are millimetres. Every handle can have a round mounting hole in the bottom
 Needs Node 22+.
 
 ```bash
+git clone https://github.com/smistrydev/haft.git
+cd haft
 npm install
 npm run dev
 ```
+
+On iPhone: open the repo in GitHub, tap **Code → Download ZIP**.
 
 Open the URL Vite prints (port 8080).
 
